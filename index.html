@@ -37,7 +37,7 @@
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nemo dolorum provident exercitationem
         laboriosam nulla architecto quae incidunt accusamus numquam non fuga beatae voluptates, autem molestiae, fugiat
         illo deserunt quos!</p>
-      <button class="button button-dark">Find a Classroom</button>
+      <a href="#contact"><button class="button button-dark">Find a Classroom</button></a>
     </div>
     <div class="hero-right"><img class="image" src="./hero_section_image.png" alt=""></div>
   </section>
@@ -94,28 +94,32 @@
 
     <h1>Contact Us</h1>
 
-    <form action="send-email.php" method="POST">
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+      <input type="hidden" name="access_key" value="6bba3089-e3c4-4d9e-96d3-2f01e737cb05" />
+      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+      <input type="hidden" name="from_name" value="My Website" />
+
+
       <div class="form1">
-        <textarea id="message" name="message" rows="10" placeholder="Your message here!"  required></textarea>
+        <textarea class="form-textarea" id="message" rows="10" name="message" placeholder="Your message"></textarea>
       </div>
-
       <div class="form2">
-        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
       </div>
-
       <div class="form3">
-        <input type="email" id="email" name="email" placeholder="your-email@gmail.com" required>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
       </div>
-
-      <div class="form4">
+      <div>
         <button class="button button-dark" type="submit">Send Message</button>
       </div>
-    </form>
 
   </section>
 
   <section class="footer">
-
+    <div class="footer-left">
+      <p>&copy; 2021 Mosown Tech</p>
+    </div>
   </section>
 
   <script type="module" src="./main.js"></script>
