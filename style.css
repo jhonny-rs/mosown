@@ -318,17 +318,41 @@ form textarea {
 /* SUBMITTED FORM STYLES */
 
 .form-submitted-body {
-  background-color: #b18aff;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
+.form-submitted-body h1 {
+  font-size: 4rem;
+  color: #000;
+  text-shadow: 0 0 20px #bc9aff;
+}
+
+.form-submitted-body a {
+  text-decoration: none;
+  font-weight: normal;
+  color: #000;
+  font-size: 1.2rem;
+  text-shadow: 0 0 20px #bc9aff;
+  padding: 1rem;
+  transition: all .2s ease-in-out;
+}
+
+.form-submitted-body a:hover {
+  color: #333;
+  font-size: 1.3rem;
+}
 
 
-
+.form-submitted-body img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+}
 
 
 
@@ -650,5 +674,13 @@ form textarea {
   .contact h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+  }
+
+
+  /* FORM SUBMITTED STYLES */
+  
+  .form-submitted-body h1 {
+    text-align: center;
+    font-size: 2rem;
   }
 }
