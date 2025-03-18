@@ -87,7 +87,7 @@ section {
 
 .hero-right {
   width: 50%;
-  padding: 0 8rem;
+  padding: 8rem 8rem 0 0;
 }
 
 .hero-right img {
