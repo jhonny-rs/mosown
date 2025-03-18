@@ -8,7 +8,7 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-  background-color: #E2E1DD;
+  background-color: #d1d0cd;
 }
 
 body {
@@ -120,7 +120,7 @@ section {
 .mission {
   width: calc(100% - 20rem);
   height: 100%;
-  padding: 2rem 8rem;
+  padding: 4rem 8rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -189,6 +189,7 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.1));
 }
 
 .about-right {
@@ -286,7 +287,7 @@ form textarea {
   border-radius: 1rem;
   font-size: 1.1rem;
   border: 2px solid #140135;
-  background-color: #E9DEF6;
+  background-color: transparent;
 }
 
 .form1 {
@@ -449,36 +450,11 @@ form textarea {
 
   .contact form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 2rem;
   }
 
-  form input,
-  form textarea {
-    width: 20rem;
-    padding: .8rem;
-    border-radius: 1rem;
-    font-size: 1.1rem;
-    border: 2px solid #140135;
-    background-color: #E9DEF6;
-  }
-
-  .form1 {
-    grid-area: 1 / 1 / 4 / 2;
-  }
-
-  .form2 {
-    grid-area: auto;
-  }
-
-  .form3 {
-    grid-area: auto;
-  }
-
-  .form4 {
-    grid-area: auto;
-  }
 }
 
 
