@@ -108,14 +108,15 @@ section {
 
 .button-dark {
   background-color: #000;
-  color: white;
+  color: #d1d0cd;
   font-size: 1.1rem;
   border: none;
   transition: .1s ease-in-out;
 }
 
 .button-dark:hover {
-  background-color: #222;
+  background-color: #111;
+  color: #fff;
   scale: 1.05;
 }
 
@@ -166,7 +167,7 @@ section {
 .container1 {
   grid-area: 1/1/2/3;
   background-color: #111;
-  color: #fff;
+  color: #d1d0cd;
   text-shadow: 0 0 1rem #000;
   display: flex;
   justify-content: center;
@@ -200,7 +201,7 @@ section {
 .container4 {
   grid-area: 2/2/3/4;
   background-color: #111;
-  color: #fff;
+  color: #d1d0cd;
   text-shadow: 0 0 .5rem #000;
   display: flex;
   justify-content: center;
@@ -276,7 +277,7 @@ section {
   align-items: center;
   padding: 2rem 10rem;
   background-color: #111;
-  color: #fff;
+  color: #d1d0cd;
   border-radius: 1rem;
   margin-top: 1rem;
 }
@@ -390,7 +391,7 @@ form textarea:focus {
   align-items: center;
   background-color: #140135;
   font-weight: normal;
-  color: white;
+  color: #d1d0cd;
 }
 
 /* SUBMITTED FORM STYLES */
@@ -711,11 +712,7 @@ form textarea:focus {
   }
 
   .FAQ summary {
-    list-style: none;
-    font-weight: normal;
     font-size: 1.1rem;
-    color: #000;
-    cursor: pointer;
   }
 
   .FAQ summary::before {
