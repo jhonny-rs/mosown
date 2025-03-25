@@ -83,7 +83,7 @@ section {
 
 .hero-left p {
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #333;
 }
 
@@ -257,8 +257,8 @@ section {
 
 .about-right p {
   font-weight: normal;
-  color: #555;
   font-size: 1.2rem;
+  color: #333;
 }
 
 .cta-section {
@@ -270,7 +270,7 @@ section {
 }
 
 .cta {
-  width: calc(100% - 36rem);
+  width: calc(100% - 32rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
