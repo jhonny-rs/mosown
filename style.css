@@ -84,7 +84,7 @@ section {
 .hero-left p {
   font-weight: normal;
   font-size: 1.2rem;
-  color: #333;
+  color: #222;
 }
 
 .hero-right {
@@ -161,7 +161,7 @@ section {
 
 .container p {
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .container1 {
@@ -253,12 +253,13 @@ section {
 .about-right h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
+  background-color: #8461C9;
 }
 
 .about-right p {
   font-weight: normal;
   font-size: 1.2rem;
-  color: #333;
+  color: #222;
 }
 
 .cta-section {
@@ -279,7 +280,7 @@ section {
   background-color: #111;
   color: #d1d0cd;
   border-radius: 1rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 .cta h1 {
@@ -635,7 +636,8 @@ form textarea:focus {
     flex-direction: column-reverse;
   }
 
-  .container1>div, .container4>div {
+  .container1>div,
+  .container4>div {
     width: 100%;
   }
 
