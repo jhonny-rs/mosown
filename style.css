@@ -409,7 +409,6 @@ form textarea:focus {
 .form-submitted-body h1 {
   font-size: 4rem;
   color: #000;
-  text-shadow: 0 0 20px #bc9aff;
 }
 
 .form-submitted-body a {
@@ -417,7 +416,6 @@ form textarea:focus {
   font-weight: normal;
   color: #000;
   font-size: 1.2rem;
-  text-shadow: 0 0 20px #bc9aff;
   padding: 1rem;
   transition: all .2s ease-in-out;
 }
